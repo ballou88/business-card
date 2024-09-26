@@ -1,0 +1,107 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #23252c;
+}
+
+main {
+  width: 320px;
+  height: 780px;
+  background-color: #1a1b21;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  position: relative;
+}
+
+.headshot {
+  width: 100%;
+}
+
+.name {
+  font-size: 25px;
+  padding: 0;
+  margin: 20px 0 0 0;
+  font-weight: 800;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: 400;
+  color: #f3bf99;
+  margin: 0;
+  line-height: 1.2em;
+}
+
+a.website {
+  color: #f5f5f5;
+  font-size: 10px;
+  line-height: 1.5em;
+}
+
+.btn {
+  margin-top: 15px;
+  background-color: white;
+  border: none;
+  color: #374151;
+  font-size: 14px;
+  width: 250px;
+}
+
+.fa-envelope:before {
+  margin-right: 10px;
+  content: "\f0e0";
+  font: normal normal normal 14px/1 FontAwesome;
+}
+.about,
+.interests {
+  margin-top: 30px;
+  padding: 0 35px;
+  text-align: left;
+}
+.about > h3,
+.interests > h3 {
+  margin: 0;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #f5f5f5;
+}
+
+.about > p,
+.interests > p {
+  margin: 5px 0;
+  font-size: 10px;
+  line-height: 1.5em;
+}
+
+footer {
+  background-color: #161619;
+  width: 100%;
+  height: 64px;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f092";
+  color: #918e9b;
+  font-size: 30px;
+  margin: 0 10px;
+}
+
+.linkedin:before {
+  font: normal normal normal 14px/1 FontAwesome;
+  content: "\f08c";
+  color: #918e9b;
+  font-size: 30px;
+  margin: 0 10px;
+}
