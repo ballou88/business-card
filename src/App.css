@@ -1,3 +1,7 @@
+body {
+  background-color: #23252c;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
